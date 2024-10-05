@@ -4,7 +4,7 @@ saldo = 0
 timesV = ["Brasil", "Italia", "Estados Unidos", "Russia", "Alemanha", "Polonia", "Cuba", "Argentina"]
 timesB = ["Los Angeles Lakers", "Chicago Bulls", "Boston Celtics", "Golden State Warriors", "Miami Heat", "San Antonio Spurs", "Real Madrid ", "Barcelona", "Dallas Mavericks", "Toronto Raptors"]
 timesF = ["Real Madrid", "Barcelona", "Manchester United", "Liverpool", "Bayern de Munique", "Paris Saint-Germain", "AC Milan", "Manchester City", "Chelsea", "Juventus"]
-
+ListaBet = []
 print("=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+\nBem vindo ao PETANO!\n=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+")
 print("Digite seu nome : ")
 Nome = input()
@@ -50,3 +50,7 @@ while escolha != 5:
        escolhaJogo = int(input("Comando :"))
        if escolhaJogo == 1:
            print("Esses são os eventos atuais:")
+           ListaBet = random.sample(timesF, 6)
+           
+
+           
