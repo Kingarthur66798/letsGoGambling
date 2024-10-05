@@ -51,6 +51,9 @@ while escolha != 5:
        if escolhaJogo == 1:
            print("Esses são os eventos atuais:")
            ListaBet = random.sample(timesF, 6)
-           
+           print('Qual jogo deseja apostar?\n' \
+                        f'1. {ListaBet[0].nome.capitalize()} x {ListaBet[1].nome.capitalize()}\n' \
+                        f'2. {ListaBet[2].nome.capitalize()} x {ListaBet[3].nome.capitalize()}\n' \
+                        f'3. {ListaBet[4].nome.capitalize()} x {ListaBet[5].nome.capitalize()}\n')
 
            
