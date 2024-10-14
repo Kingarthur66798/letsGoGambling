@@ -1,4 +1,12 @@
 import random
+                                            # EU TE ODEIO BETIM
+def mostra_eventos(eventos):
+    print("Eventos disponiveis:")
+    for i, eventos in enumerate(eventos):
+        print(f"{i + 1}. {evento['nome']} (Odds: {evento['odds']}))
+
+
+
 escolha = 0
 saldo = 0
 timesV = ["Brasil", "Italia", "Estados Unidos", "Russia", "Alemanha", "Polonia", "Cuba", "Argentina"]
